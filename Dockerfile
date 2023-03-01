@@ -1,3 +1,4 @@
 FROM alpine
-ANERROR test
+RUN apk update \
+ && apk upgrade
 
