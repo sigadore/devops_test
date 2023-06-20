@@ -1,5 +1,5 @@
 FROM alpine
 RUN apk update \
  && apk upgrade \
- && apk install bash
+ && apk add bash
 
